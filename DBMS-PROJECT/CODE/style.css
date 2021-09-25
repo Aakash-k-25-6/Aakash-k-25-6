@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  height:150px;
+  width:160px;
+  border-radius:10px;
+  display: inline-block;
+  margin: 5px 40px;
+}
+/* Style the header */
+header {
+  background-color: #F57F3F;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  height: 20%;
+  
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+h3 {
+  padding:10dp;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.scrollmenu{
+  background-color:#f5f5f5;
+  padding:10px;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #DC7633;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DC7633;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #F8C471;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  height:1700px;
+}
+
+.index-categories-list {
+  color:#000000;
+  padding:50dp;
+  font-family:Arial;
+}
+/* Style the footer */
+footer {
+  background-color: #F57F3F;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height: 1500dp;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.login{
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+.form{
+  position: relative;
+  z-index:  1;
+  background: rgba(51, 51, 51, 0.8);
+  max-width: 360px;
+  margin: 0 0 100px;
+  padding:  40px;
+  text-align: center;
+}
+
+.form input{
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #F8C471;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button:hover,.form button:active{
+  background: #F57F3F;
+}
+
+.reg p a{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+.reg p a:hover{
+  background-color: white;
+}
+.reg p{
+  font-size: 17px;
+}
+
+.sub_head{
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: #F57F3F; 
+}
+
+.div{
+  height:700px;
+}
+
+.movimg{
+  position:relative;
+  height:300px;
+  width:300px;
+  border:none;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+.movimg img{
+  height:300px;
+}
+
+.movname {
+  position:absolute;
+  right:750px;
+  bottom:250px;
+}
+
+.movplot{
+  position:absolute;
+  right:550px;
+  bottom:50px;
+}
+
+.movcat{
+  position:absolute;
+  right:50px;
+  bottom:250px;
+}
+
+.movcast{
+  position:absolute;
+  right:1450px;
+  bottom:-100px;
+}
+
+.promain img{
+  height:200px;
+  width:200px;
+}
+
+.promain h2{
+  margin: 100px;
+}
