@@ -1,0 +1,5 @@
+* DESCRIPTION OF CONTENTS *
+
+icon      : required icon images are stored here
+products  : contains images required for project
+project   : contains java n form docs
