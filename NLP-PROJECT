@@ -1,0 +1,9 @@
+Movies play an important part in everyone’s life. We can say that many movies have partly modeled us to what we are today. 
+One of the ways in which movies are classified is by their genres. 
+And those genres were formulated by the movie makers themselves. 
+But practically no movies will have the same texture and completely have the same type. 
+There can be various genres that a movie falls under. But we generalize it by choosing the major genre. 
+And one of the major problems these days is tagging other movies which fall under similar kinds of storyline or share the same genre, it has been manually tagged.
+What our project is all about is that we do a semantic analysis of the movie based on which we say formulate a movie into various sets of genres which the movie falls under
+which can be later used to tag other movies of the same type. 
+This can also be used to view genre classification of a movie and then decide whether to watch it or it is in-line with our taste.
